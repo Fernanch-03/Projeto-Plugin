@@ -1,6 +1,6 @@
 // This is a JavaScript file
 
- $(document).on("click","#alerta",function() {
+ $(document).on("click","#alerta",function(){
    
    navigator.notification.alert("Minha mensagem",null,"aviso","aceito");
    
